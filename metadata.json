@@ -1,0 +1,6 @@
+{
+  "name": "MARCHENOU",
+  "description": "Kominote Biznis Ayisyen - Platfòm kominotè ayisyen ki konekte vandè ak kliyan pou achte ak vann fasil.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

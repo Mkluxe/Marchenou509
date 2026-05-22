@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "pseudo": "Milio",
+      "phone": "50956005344",
+      "points": 120,
+      "total_earned": 150,
+      "total_spent": 30
+    },
+    {
+      "pseudo": "Sephora",
+      "phone": "50940761237",
+      "points": 350,
+      "total_earned": 400,
+      "total_spent": 50
+    },
+    {
+      "pseudo": "Samara",
+      "phone": "50940384898",
+      "points": 80,
+      "total_earned": 100,
+      "total_spent": 20
+    },
+    {
+      "pseudo": "Tibout",
+      "phone": "50912345678",
+      "points": 240,
+      "total_earned": 240,
+      "total_spent": 0
+    },
+    {
+      "pseudo": "Jean",
+      "phone": "50931871206",
+      "points": 500,
+      "total_earned": 600,
+      "total_spent": 100
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-sans {
+    font-family: 'Inter', sans-serif;
+  }
+  .font-display {
+    font-family: 'Bebas Neue', cursive;
+  }
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom background gradient with glow */
+body {
+  background: radial-gradient(circle at 10% 20%, rgba(255, 140, 66, 0.12) 0%, #07110d 100%);
+  min-height: 100vh;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #081611;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#1e8b5b, #ff8c42);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#2ea470, #ffa060);
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-accent {
+  background: rgba(255, 140, 66, 0.06);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 140, 66, 0.15);
+}
+
+/* Elegant Text Shadows */
+.text-shadow-glow {
+  text-shadow: 0 0 15px rgba(255, 140, 66, 0.3);
+}
